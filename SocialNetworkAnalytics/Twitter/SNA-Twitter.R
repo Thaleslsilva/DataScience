@@ -1,5 +1,7 @@
+######################################### 
 # Social Network Analytics - Twitter
 # Comparando dados de diferentes temas
+#########################################
 
 # Obs: Caso tenha problemas com a acentuação, consulte este link:
 # https://support.rstudio.com/hc/en-us/articles/200532197-Character-Encoding
@@ -7,19 +9,15 @@
 # Configurando o diretório de trabalho
 # Coloque entre aspas o diretório de trabalho que você está usando no seu computador
 # Não use diretórios com espaço no nome
-setwd("Z:/Dropbox/DSA/Business-Analytics/R/Cap08/Twitter")
+setwd("...")
 getwd()
 
 # Carrega biblioteca com functions auxiliares e autenticação
-source('utils.R')
-source('autentication.R')
-
-# Instalando os pacotes
-#install.packages(c("devtools", "httr"))
-#install.packages(c("tm", "wordcloud", "RColorBrewer"))
-#install.packages(c("twitteR", "ROAuth"))
+source('Utils.R')
+source('Autentication.R')
 
 # Carregando os pacotes
+# Caso não tenha instalado -> install.packages(nomedopacote)
 library(devtools)
 library(twitteR)
 library(ROAuth)
@@ -29,10 +27,8 @@ library(RColorBrewer)
 library(stringr)
 
 # Coletando os tweets
-?searchTwitter
 bigdata_tweets = searchTwitter("BigData", n = 100, lang = "pt")
 datascience_tweets = searchTwitter("DataScience", n = 100, lang = "pt")
-#dsa_Tweets = userTimeline(getUser('dsacademybr'), n = 100)
 
 # Print
 head(bigdata_tweets)
@@ -123,14 +119,3 @@ wordcloud(df_merge$termo,
           scale = c(3,.5),
           random.order = FALSE, 
           colors = brewer.pal(8, "Dark2"))
-
-
-
-
-
-
-
-
-
-
-
