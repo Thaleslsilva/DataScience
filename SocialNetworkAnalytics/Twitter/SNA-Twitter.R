@@ -17,7 +17,7 @@ source('Utils.R')
 source('Autentication.R')
 
 # Carregando os pacotes
-# Caso não tenha algum pacote instalado -> install.packages("nomedopacote")
+# Caso não tenha instalado -> install.packages(nomedopacote)
 library(devtools)
 library(twitteR)
 library(ROAuth)
