@@ -17,6 +17,7 @@ Avaliar quais atributos influenciam um usuário na compra de produtos online e c
             Matriz de correlação entre variáveis contínuas;
             Visualização de gráficos (seaborn::countplot) das variáveis categóricas para analisar como a variável de destino é influenciada por elas;
         Pré-processamento
-            Label encoding
-            Balanceamento de classes (imblearn::SMOTE)
+            Label encoding (sklearn.preprocessing::LabelEncoder.fit_transform())
+            Balanceamento de classe - Oversampling (imblearn::SMOTE)
+            Divisão em dados de treino e teste (train_test_split())
         Modelagem Preditiva 
