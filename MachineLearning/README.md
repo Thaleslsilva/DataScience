@@ -10,7 +10,13 @@ Falta fazer redução de dimensionalidade e seleção de variáveis para tentar 
 Avaliar quais atributos influenciam um usuário na compra de produtos online e construir um modelo preditivo para realizar previsões de compras futuras
 
         Análise Exploratória
+            Verifica e remove valores missing;
+            Verifica valores únicos (nunique());
+            Divide os dados em variáveis contínuas e categóricas. Trata todas as variáveis com menos de 30 entradas únicas como categóricas;
+            Boxplot das variáveis contínuas: parecem extremamente distorcidas. Aplica-se transformação de log para melhor visualização;
+            Matriz de correlação entre variáveis contínuas;
+            Visualização de gráficos (seaborn::countplot) das variáveis categóricas para analisar como a variável de destino é influenciada por elas;
         Pré-processamento
             Label encoding
-            Balanceamento de classes com imblearn::SMOTE
+            Balanceamento de classes (imblearn::SMOTE)
         Modelagem Preditiva 
