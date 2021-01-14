@@ -9,6 +9,6 @@ Prevê gastos com cartão de crédito em 3 categorias. Falta fazer redução de 
 
         Análise Exploratória
         Pré-processamento
-Label encoding
-Balanceamento de classes com imblearn::SMOTE
+            Label encoding
+            Balanceamento de classes com imblearn::SMOTE
         Modelagem Preditiva 
