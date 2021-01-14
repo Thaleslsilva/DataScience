@@ -1,6 +1,6 @@
 ######################################### 
-# Social Network Analytics - Twitter
-# Comparando dados de diferentes temas
+# Social Network Analytics - Twitter    #
+# Comparando dados de diferentes temas  #
 #########################################
 
 # Obs: Caso tenha problemas com a acentuação, consulte este link:
