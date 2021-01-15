@@ -1,15 +1,11 @@
 # Classificação Multiclasse com SVM - Prevendo Gastos com Cartão de Crédito em 3 Categorias
 
-Obs: Caso tenha problemas com a acentuação, consulte este link:  
-https://support.rstudio.com/hc/en-us/articles/200532197-Character-Encoding  
-
 ###  Definido o Problema de Negócio
 
-A identificação e a capacidade de classificar os clientes com base nos gastos sempre foram uma área de  
-interesse para instituições bancárias e empresas de cartão de crédito. É um aspecto importante no  
-gerenciamento de relacionamento com o cliente e ajuda a aumentar a receita com clientes existentes. Várias  
-tentativas foram feitas a esse respeito. Os emissores de cartões de crédito tradicionalmente têm como alvo  
-os consumidores usando informações sobre seus comportamentos e dados demográficos.  
+A identificação e a capacidade de classificar os clientes com base nos gastos sempre foram uma área de interesse para instituições bancárias e empresas de cartão  
+de crédito. É um aspecto importante no gerenciamento de relacionamento com o cliente e ajuda a aumentar a receita com clientes existentes. Várias tentativas foram  
+feitas a esse respeito. Os emissores de cartões de crédito tradicionalmente têm como alvo os consumidores usando informações sobre seus comportamentos e dados  
+demográficos.  
 
 Nosso trabalho é classificar os clientes de cartão de crédito de acordo com seu comportamento de gastos.  
 A segmentação é um aspecto importante na compreensão do cliente e na execução de campanhas de marketing  
