@@ -29,14 +29,20 @@ Falta fazer redução de dimensionalidade e seleção de variáveis para tentar 
 Avaliar quais atributos influenciam um usuário na compra de produtos online e construir um modelo preditivo para realizar previsões de compras futuras
 
         Análise Exploratória
-            Verifica e remove valores missing;
-            Verifica valores únicos (nunique());
-            Divide os dados em variáveis contínuas e categóricas. Trata todas as variáveis com menos de 30 entradas únicas como categóricas;
-            Boxplot das variáveis contínuas: parecem extremamente distorcidas. Aplica-se transformação de log para melhor visualização;
-            Matriz de correlação entre variáveis contínuas;
-            Visualização de gráficos (seaborn::countplot) das variáveis categóricas para analisar como a variável de destino é influenciada por elas;
+            Verifica e remove valores missing
+            Verifica valores únicos (nunique())
+            Divide os dados em variáveis contínuas e categóricas. Trata todas as variáveis com menos de 30 entradas únicas como categóricas
+            Boxplot das variáveis contínuas: parecem extremamente distorcidas. Aplica-se transformação de log para melhor visualização
+            Matriz de correlação entre variáveis contínuas
+            Visualização de gráficos (seaborn::countplot) das variáveis categóricas para analisar como a variável de destino é influenciada por elas
         Pré-processamento
             Label encoding (sklearn.preprocessing::LabelEncoder.fit_transform())
             Balanceamento de classe - Oversampling (imblearn::SMOTE)
             Divisão em dados de treino e teste (train_test_split())
         Modelagem Preditiva 
+            Modelo base com Kernel Linear
+            Modelo com Kernel Linear e dados padronizados (Scaled) 
+                Redução do tempo de treinamento de 4003 para 7 segundos
+            Otimização de hiperparâmetros com Grid Search e Kernel RBF
+            Otimização de hiperparâmetros com Grid Search e Kernel Polinomial
+            Faz previsões com novos registros padronizados usando o melhor modelo treinado
