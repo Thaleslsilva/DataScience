@@ -25,7 +25,7 @@ Falta fazer redução de dimensionalidade e seleção de variáveis para tentar 
             Salva e carrega o modelo escolhido (saveRDS()/readRDS())
             Faz previsões com novos dados
 
-### Mini-Projeto 2 - Prevendo a intenção de compra de usuários de E-Comerce
+### Mini-Projeto - Prevendo a intenção de compra de usuários de E-Comerce
 Avaliar quais atributos influenciam um usuário na compra de produtos online e construir um modelo preditivo para realizar previsões de compras futuras
 
         Análise Exploratória
