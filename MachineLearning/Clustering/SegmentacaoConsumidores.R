@@ -34,7 +34,7 @@ library(clustertend)
 
 
 ### Carregando os dados
-dados_clientes_v1 <- read.csv("dados/dados_clientes.csv")
+dados_clientes_v1 <- read.csv("dados_clientes.csv")
 str(dados_clientes_v1)
 names(dados_clientes_v1)
 View(dados_clientes_v1)
