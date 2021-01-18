@@ -1,6 +1,10 @@
 # Machine Learning
 Repositório de projetos em Machine Learning com diferentes algoritmos
 
+## Clustering
+### Segmentação de Consumidores
+Encontrar segmentos de consumidores para campanhas personalizadas de Marketing pelo método de clusterização com o algoritmo K-Means
+
 ## SVM
 ### Classificação Multiclasse
 Prever gastos com cartão de crédito em 3 categorias  
