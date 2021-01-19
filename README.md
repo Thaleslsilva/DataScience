@@ -1,7 +1,7 @@
 # DataScience
 Repositório de projetos em ciência de dados
 
-### Autor
+
 ---
 
  <sub><b>Thales de Lima Silva</b></sub></a>
