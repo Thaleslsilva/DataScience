@@ -60,3 +60,32 @@ Avaliar quais atributos influenciam um usuário na compra de produtos online e c
             Otimização de hiperparâmetros com Grid Search e Kernel RBF
             Otimização de hiperparâmetros com Grid Search e Kernel Polinomial
             Faz previsões com novos registros padronizados usando o melhor modelo treinado
+
+## Processamento de Linguagem Natural (PLN)
+### Collocations e Processamento de Comentários de Avaliações de Hotéis 
+Buscar as Collocations mais relevantes que ajudam a explicar as avaliações, dado um conjunto de textos de avaliações (comentários) de hotéis
+
+        Preparação e Limpeza dos Dados
+            Remove caracteres non-ascii (ex.: emojis)
+            Cria dicionário com as stopwords em todos os idiomas
+            Cria função para detectar o idioma predominante com base nas stopwords
+            Cria função para limpar (pontuação) e lematizar os comentários
+            Aplica tokenização 
+        Estratégia 1 - Buscando Bigramas e Trigramas mais Relevantes nos Comentários por Frequência
+            Cria métricas de associação de bigramas e trigramas
+            Cria buscador de bigramas e trigramas nos tokens
+            Calcula frequências e cria tabela
+            Filtra bigramas e trigramas contendo adjetivos/substantivos e remove stopwords
+        Estratégia 2 - Buscando Bigramas e Trigramas mais Relevantes nos Comentários por Pointwise Mutual Information (PMI)
+            Filtra bigramas e trigramas com 20 ou mais ocorrências
+            O score PMI mede a probabilidade com que as palavras co-ocorrem mais do que se fossem independentes. Muito sensível à combinação rara de palavras
+        Estratégia 3 - Buscando Bigramas e Trigramas mais Relevantes nos Comentários por Teste t
+            Ao aplicar o Teste t rejeitamos ou não a H0 através do cálculo de um score e assim representamos os Collocations mais relevantes no texto
+            Filtra bigramas e trigramas contendo adjetivos/substantivos e remove stopwords
+        Estratégia 4 - Buscando Bigramas e Trigramas mais Relevantes nos Comentários por Teste do Qui-quadrado
+            O teste do qui-quadrado é uma alternativa ao teste t. Este assume na hipótese nula que as palavras são independentes
+        Comparação e Resultado Final
+            Extrai os 10 Collocations bigramas e trigramas mais relevantes de acordo com cada um dos 4 métodos usados
+            Cria dataframe com todos os resultados
+            Visualiza a tabela - Padrão CSS
+            
