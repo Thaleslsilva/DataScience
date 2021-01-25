@@ -102,4 +102,5 @@ Classifica o idioma de uma sentença com base em um modelo treinado
             Cria o modelo, função de perda e otimizador
         Treinamento do Modelo
         Previsões e Avaliação do Modelo
+            Função para previsões
         Previsões com Novos Dados
