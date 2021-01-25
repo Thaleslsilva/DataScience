@@ -89,3 +89,17 @@ Buscar as Collocations mais relevantes que ajudam a explicar as avaliações, da
             Cria dataframe com todos os resultados
             Visualiza a tabela - Padrão CSS
             
+### Classificação de Idiomas de Sentenças com Bag of Words e PyTorch 
+Classifica o idioma de uma sentença com base em um modelo treinado
+
+        Preparação dos Dados
+            Carrega dados de treino e teste
+            Prepara o dicionário do vocabulário
+        Construção do Modelo
+            Classe para o modelo BOW de classificação
+            Função para criar o vetor BOW necessário para o treinamento
+            Função para criar a variável target
+            Cria o modelo, função de perda e otimizador
+        Treinamento do Modelo
+        Previsões e Avaliação do Modelo
+        Previsões com Novos Dados
