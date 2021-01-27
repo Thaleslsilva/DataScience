@@ -89,7 +89,7 @@ Buscar as Collocations mais relevantes que ajudam a explicar as avaliações, da
             Cria dataframe com todos os resultados
             Visualiza a tabela - Padrão CSS
             
-### Classificação de Idiomas de Sentenças com Bag of Words e PyTorch 
+### Bag of Words e PyTorch - Classificação de Idiomas de Sentenças
 Classifica o idioma de uma sentença com base em um modelo treinado
 
         Preparação dos Dados
@@ -104,3 +104,18 @@ Classifica o idioma de uma sentença com base em um modelo treinado
         Previsões e Avaliação do Modelo
             Função para previsões
         Previsões com Novos Dados
+        
+### TF-IDF - Identificação de Palavras
+Identifica as palavras mais relevantes em um livro
+
+        Preparação dos Dados
+            Carrega dados e cria listas para receber as frases e as palavras do texto
+            Aplica tokenização 
+            Converte a lista de palavras em um conjunto (set)
+        Frequência do Termo
+            Cria e aplica função para calcular a TF
+            Cria um corpus BOW 
+            Cria e filtra dicionário
+        Frequência Inversa
+            Cria e aplica função para calcular a IDF
+        TF-IDF (Gera Indicador)
