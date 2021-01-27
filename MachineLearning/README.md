@@ -2,8 +2,8 @@
 Repositório de projetos em Machine Learning com diferentes algoritmos
 
 ## Clustering
-### Segmentação de Consumidores
-Encontrar segmentos de consumidores para campanhas personalizadas de Marketing pelo método de clusterização com o algoritmo K-Means
+### K-Means - Segmentação de Consumidores
+Encontrar segmentos de consumidores para campanhas personalizadas de Marketing pelo método de clusterização
         
         Análise Exploratória
             Verifica a existência de valores missing
