@@ -119,3 +119,43 @@ Identifica as palavras mais relevantes em um livro
         Frequência Inversa
             Cria e aplica função para calcular a IDF
         TF-IDF (Gera Indicador)
+        
+### CBOW - Continuous Bag of Words Model
+Inteligência artificial para previsão de sentenças em embargos de declaração
+
+        Preparação dos Dados
+            Carrega e limpa texto
+            Cria corpus e dicionários para TF-IDF
+            Loop pelo texto par extrair sentenças e palavras
+        Construção do Modelo CBoW
+            Define o comprimento de cada embedding
+            Cria classe para o modelo
+            Cria modelo, função de custo e backpropagation
+            Cria função para griar o vetor de sentenças, necessário para treinar o modelo
+            Converte o dicionário de palavras em um vetor de sentenças
+        Treinamento do Modelo
+            Loop por 150 passadas (epochs) de treinamento
+                Inicializa os gradientes com zero
+                Cria o vetor de sentença com os dados de entrada
+                Usa o vetor para fazer previsões com o modelo e retorna as probabilidades
+                Calcula o erro do modelo
+                Chama o método de backpropagation para calcular o gradiente da derivada
+                Otimiza os pesos do modelo e segue para a próxima passada
+                Atualiza o erro da época
+            Cria funções para obter previsão e prever sentenças
+        Previsões com o Modelo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
