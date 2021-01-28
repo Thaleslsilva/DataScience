@@ -145,7 +145,32 @@ Inteligência artificial para previsão de sentenças em embargos de declaraçã
             Cria funções para obter previsão e prever sentenças
         Previsões com o Modelo
 
+### GloVe - Global Vectors
+Buscador de palavras em texto por similaridade
 
+        Carregando e Processando os Dados
+            Carrega texto
+            Aplica tokenização
+        Criando Vocabulário
+            Cria dicionários para mapear as palavras aos índices e os índices às palavras
+            Contexto de dez palavras à esquerda e dez palavras à direita
+            Cria matriz de co-ocorrência e preenche com dicionários de mapeamento criados anteriormente
+            Transposta da matriz de co-ocorrências                    
+        Criando Modelo
+            Define tamanho da embedding e hiperparâmetros
+            Cria classe com funções para o modelo
+            Cria função para gerar um bacth de palavras
+        Treinamento do Modelo
+            Cria e executa a função de treinamento e retorna o modelo e os erros
+            Cria função para o plotar o erro durante o treinamento
+        Testando o Modelo: Similaridade de Palavras, analogias de palavras
+            Cria funções para retornar a embedding de uma palavra e buscar a palavra mais próxima
+            Gera o vetor (embedding) de uma palavra 
+            Busca as palavras similares à palavra
+        Analogia
+            Cria função para busca de palavra por analogia
+            Busca por analogia
+            
 
 
 
