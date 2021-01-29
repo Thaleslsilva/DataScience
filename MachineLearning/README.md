@@ -187,6 +187,8 @@ Previsão de palavras com base no contexto e visualização com PCA
             Cria o objeto para redução de dimensionalidade
             Treina o modelo PCA
             Cria funções para obter vetores de palavras nos pesos W1 e W2 (contexto e palavra central)
+            Usa a função cosine() do SciPy para calcular as distâncias das outras palavras para a palavra "secreta"
+            Visualiza as distâncias
 
 
 
