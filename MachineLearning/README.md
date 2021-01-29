@@ -171,6 +171,22 @@ Buscador de palavras em texto por similaridade
             Cria função para busca de palavra por analogia
             Busca por analogia
             
+### Word2Vec - Word to Vector
+Previsão de palavras com base no contexto e visualização com PCA
+
+        Preparação dos Dados
+            Cria corpus e constrói vocabulário com tokenização
+            Cria mapeamento das palavras aos índices e dos índices às palavras
+            Contexto de dez palavras à esquerda e dez palavras à direita                   
+        Construção do Modelo
+            Cria função para gerar os embeddings
+            Cria função para gerar os vetores, da palavra central e do contexto
+            Definição dos hiperparâmetros e dos pesos da rede neural
+            Treinamento
+        Teste do Modelo e Redução de Dimensionalidade com PCA
+            Cria o objeto para redução de dimensionalidade
+            Treina o modelo PCA
+            Cria funções para obter vetores de palavras nos pesos W1 e W2 (contexto e palavra central)
 
 
 
