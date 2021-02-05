@@ -1,5 +1,7 @@
+#####################################################################
 # Crandash App - Dashboard com dados de downloads de pacotes do CRAN
 # Arquivo para organização dos dados que vão alimentar o Dashboard
+#####################################################################
 
 # Pacotes (instale os pacotes antes de executar o projeto)
 
