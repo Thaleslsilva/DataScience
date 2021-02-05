@@ -1,3 +1,6 @@
+#######################
+# Interface do usuário
+#######################
 
 dashboardPage(
   dashboardHeader(title = "cran.rstudio.com"),
