@@ -1,5 +1,7 @@
+########################################################################################################
 # Crandash App - Dashboard com dados de downloads de pacotes do CRAN
 # Bloomfilter é uma função de autenticação no CRAN a fim de coletar os dados para alimentar o dashboard
+########################################################################################################
 
 library(digest)
 library(bit)
