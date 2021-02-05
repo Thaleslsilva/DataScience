@@ -1,3 +1,6 @@
+##################################
+# Comunicacao com o servidor do R
+##################################
 
 function(input, output, session) {
   
