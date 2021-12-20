@@ -6,7 +6,7 @@ Pergunte-se: Qual a minha dificuldade em lógica de programação?
 Dependendo da sua resposta:
 
 1 - Se a dificuldade for na linguagem, faça um curso para aprender as instruções da linguagem.<br />
-2 - Se a dificuldade for no pseudocódigo, pratique mais a definição de problemas. Pseudocódigo é apenas língua portuguesa para especificar uma série de operações.\n
+2 - Se a dificuldade for no pseudocódigo, pratique mais a definição de problemas. Pseudocódigo é apenas língua portuguesa para especificar uma série de operações.<br />
 3 - Senão, se a dificuldade for em formular os passos necessários para gerar o pseudocódigo, pesquise e estude sobre a área na qual você quer resolver o problema.
 
 ---
