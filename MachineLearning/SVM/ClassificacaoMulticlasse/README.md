@@ -1,20 +1,58 @@
-# Classificação Multiclasse com SVM - Prevendo Gastos com Cartão de Crédito em 3 Categorias
+# Multiclass Classification with SVM — Credit Card Spending Prediction
 
-###  Definido o Problema de Negócio
+Predict customer credit card spending in 3 categories using Support Vector Machine (SVM) with multi-class strategies in R.
 
-A identificação e a capacidade de classificar os clientes com base nos gastos sempre foram uma área de interesse para instituições bancárias e 
-empresas de cartão de crédito. É um aspecto importante no gerenciamento de relacionamento com o cliente e ajuda a aumentar a receita com 
-clientes existentes. Várias tentativas foram feitas a esse respeito. Os emissores de cartões de crédito tradicionalmente têm como alvo os 
-consumidores usando informações sobre seus comportamentos e dados demográficos.  
+## Business Problem
 
-Nosso trabalho é classificar os clientes de cartão de crédito de acordo com seu comportamento de gastos. A segmentação é um aspecto importante 
-na compreensão do cliente e na execução de campanhas de marketing eficazes e rentáveis. Usaremos o SVM como nosso modelo.  
+Identifying and classifying customers based on their spending behavior is a key area in customer relationship management and credit card marketing. This project uses SVM to segment customers into 3 spending categories based on demographic and financial data.
 
-Os dados demográficos, os detalhes sobre emprego e o estilo de vida dos clientes desempenham um papel vital na maneira como eles gastam. 
-Existem fatores ocultos, bem como semelhança com as compras. A máquina de vetores de suporte pode ser usada para problemas de regressão e 
-classificação.  
+## Dataset
 
-Usaremos SVM com Kernel Linear Multiclasse como nosso modelo proposto para classificar a variável target. No entanto, também avaliaremos outros
-Kernels, como RBF e Polinomial, para uma variedade de hiperparâmetros. Também levamos em consideração o viés no dados.  
+`data/credit_cards.csv` — Contains customer information including demographic and spending features.
 
-Fonte dos dados: https://sorry.vse.cz/~berka/ (dados anônimos)
+## Project Structure
+
+```
+multiclass_classification/
+├── data/
+│   ├── credit_cards.csv          # Original dataset
+│   ├── test_data.csv             # Test set
+│   ├── balanced_train_data.csv   # Balanced training set
+│   ├── new_customers.csv         # New customers for prediction
+│   └── final_results.csv        # Model predictions
+├── 1_exploratory_analysis.R      # Exploratory Data Analysis
+├── 2_preprocessing.R             # Data preprocessing
+├── 3_predictive_modeling.R       # SVM model training and evaluation
+└── README.md
+```
+
+## Workflow
+
+### 1. Exploratory Data Analysis (`1_exploratory_analysis.R`)
+- Check for missing values
+- Analyze target variable balance
+- Visual analysis (charts and plots)
+
+### 2. Preprocessing (`2_preprocessing.R`)
+- Transform categorical features to numeric
+- Apply PMM (Predictive Mean Matching) for missing value imputation
+- Transform the target variable into 3 categories
+- Balance the dataset
+
+### 3. Predictive Modeling (`3_predictive_modeling.R`)
+- Train SVM model with linear and radial kernels
+- Hyperparameter tuning (cost, gamma)
+- Model evaluation: confusion matrix, accuracy, classification report
+- Generate predictions for new customers
+
+## Technologies
+
+- **Language:** R
+- **Packages:** `e1071`, `caret`, `mice`, `ROSE`, `ggplot2`
+- **Tools:** RStudio
+
+## How to Run
+
+1. Place the dataset in the `data/` folder.
+2. Open RStudio and set the working directory to this folder.
+3. Run the scripts in order: `1_exploratory_analysis.R` → `2_preprocessing.R` → `3_predictive_modeling.R`.
