@@ -1,10 +1,29 @@
 # Machine Learning
-Repositório de projetos em Machine Learning com diferentes algoritmos
 
----
+A curated collection of Machine Learning projects covering various algorithms and real-world applications.
 
- <sub><b>Thales de Lima Silva</b></sub></a>
+## Projects
 
-Feito com ❤️! Entre em contato! 👋🏽 
+### Clustering
+- **K-Means — Consumer Segmentation**: Identifies customer segments for personalized marketing campaigns using K-Means clustering and R.
 
-[![Twitter Badge](https://img.shields.io/badge/-@thaleslsilva-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/thaleslsilva)](https://twitter.com/thaleslsilva) [![Linkedin Badge](https://img.shields.io/badge/-Thales-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/thales-lima-silva-77a99378/)](https://www.linkedin.com/in/thales-lima-silva-77a99378/) [![Gmail Badge](https://img.shields.io/badge/-medvet21@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:medvet21@gmail.com)](mailto:medvet21@gmail.com)
+### NLP (Natural Language Processing)
+- **Hotel Review Analysis**: Extracts collocations and processes hotel review comments.
+- **Text Representations**: Bag of Words, TF-IDF, CBOW, GloVe, and Word2Vec implementations.
+
+### SVM (Support Vector Machine)
+- **Multiclass Classification**: Predicts credit card spending in 3 categories.
+- **Mini Project**: End-to-end SVM pipeline exercise.
+
+### Recommendation Systems
+- **Collaborative Filtering**: Mini projects implementing content-based and collaborative filtering recommendation systems.
+
+## Technologies
+
+- **Languages:** Python, R
+- **Libraries:** scikit-learn, NbClust, factoextra, NLTK, Gensim
+- **Tools:** Jupyter Notebook, RStudio
+
+## Author
+
+Thales de Lima Silva — [Contact](mailto:medvet21@gmail.com)
